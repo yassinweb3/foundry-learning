@@ -2,7 +2,6 @@
 pragma solidity ^0.8.31;
 
 contract Vault {
-
     mapping(address => uint256) private balances;
 
     // Deposit ETH
